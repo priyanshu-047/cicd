@@ -1,7 +1,8 @@
-version : "3.3"
+version: "3.3"
+
 services:
-     webservice:
-     build:
-     contexts: .
-     ports :
-     -"8080:8080"
+  webservice:
+    build:
+      context: .
+    ports:
+      - "8080:8080"
